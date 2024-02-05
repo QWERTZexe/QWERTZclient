@@ -369,7 +369,13 @@ def tweakclientnow():
                     progress = (a / len(list(checkboxes.keys()))) * 100
                     progress_bar['value'] = progress
                 except:
-                    pass
+                    jar_download_url = url
+                    filename = jar_download_url.split("/")[-1]
+                    if os.path.exists(f"{clientdir}/mods/{filename}"):
+                        os.remove(f"{clientdir}/mods/{filename}") # if exist, remove it directly
+                    wget.download(jar_download_url, f"{clientdir}/mods/{filename}")
+                    progress = (a / len(list(checkboxes.keys()))) * 100
+                    progress_bar['value'] = progress
                 root.update_idletasks()  # Update the GUI to reflect the progress
     time.sleep(0.2)
     progress_bar.destroy()

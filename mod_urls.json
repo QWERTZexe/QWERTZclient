@@ -1,1 +1,18 @@
-{"Quickjoin":["https://api.github.com/repos/QWERTZexe/Quickjoin","https://raw.githubusercontent.com/QWERTZexe/Quickjoin/main/src/main/resources/QuickJoin.png"],"AutoGG-Reimagined":["https://api.github.com/repos/QWERTZexe/AutoGG-Reimagined","https://raw.githubusercontent.com/QWERTZexe/AutoGG-Reimagined/main/src/main/resources/AutoGG.png"],"Chat-Highlighting":["https://api.github.com/repos/QWERTZexe/Chat-Highlighting","https://raw.githubusercontent.com/QWERTZexe/Chat-Highlighting/main/src/main/resources/ChatHighlighting.png"]}
+{
+    "Quickjoin": [
+        "https://api.github.com/repos/QWERTZexe/Quickjoin",
+        "https://raw.githubusercontent.com/QWERTZexe/Quickjoin/main/src/main/resources/QuickJoin.png"
+    ],
+    "AutoGG Reimagined": [
+        "https://api.github.com/repos/QWERTZexe/AutoGG-Reimagined",
+        "https://raw.githubusercontent.com/QWERTZexe/AutoGG-Reimagined/main/src/main/resources/AutoGG.png"
+    ],
+    "Chat Highlighting": [
+        "https://api.github.com/repos/QWERTZexe/Chat-Highlighting",
+        "https://raw.githubusercontent.com/QWERTZexe/Chat-Highlighting/main/src/main/resources/ChatHighlighting.png"
+    ],
+    "OptiFine": [
+        "https://api.github.com/repos/QWERTZexe/Chat-Highlighting",
+        "https://styles.redditmedia.com/t5_2yqte/styles/communityIcon_si8ncejl6yg91.png"
+    ]
+}
